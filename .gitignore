@@ -1,0 +1,13 @@
+target/
+out/
+.history
+.cache
+*.DS_Store
+.idea/
+.idea_modules/
+.keys/
+.logs/
+*.iml
+*.ipr
+*.iws
+*.log
