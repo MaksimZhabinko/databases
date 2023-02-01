@@ -1,0 +1,12 @@
+CREATE DATABASE isolation;
+
+DROP TABLE IF EXISTS person;
+
+CREATE TABLE person
+(
+    id      BIGINT NOT NULL PRIMARY KEY,
+    balance BIGINT NOT NULL
+);
+
+INSERT INTO person VALUES (1, 1000);
+INSERT INTO person VALUES (2, 1000);
